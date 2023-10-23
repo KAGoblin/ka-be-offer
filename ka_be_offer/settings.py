@@ -120,6 +120,8 @@ INSTALLED_APPS = [
     'django_tables2',
 
     'oscarapi',
+
+    'ka_be_offer.apps.offerv2',
 ]
 
 MIDDLEWARE = [
