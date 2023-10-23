@@ -320,6 +320,7 @@ REST_FRAMEWORK = {
     ),
     'DEFAULT_PARSER_CLASSES': [
         # 'djangorestframework_camel_case.parser.CamelCaseJSONParser',
+        'rest_framework.parsers.JSONParser',
         'rest_framework.parsers.FormParser',
     ],
     # 'EXCEPTION_HANDLER': 'ka_be_offer.api.utils.exceptions.custom_exception_handler',
